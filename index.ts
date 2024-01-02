@@ -3,12 +3,17 @@
 //todo-3 : ts configuration file
 
 //todo-1
-// let num1 = 5;
-// let num2 = 5;
-// let sum = num1 + num2;
-// console.log(`Addition of ${num1} and ${num2} : ${sum} `);
+let num1 = 5;
+let num2 = 5;
+let sumWithoutFunction = num1 + num2;
+console.log(`Addition of ${num1} and ${num2} : ${sumWithoutFunction} `);
 
-function sum(a:number,b:number):number{
+//sum function 
+const sum = (a:number,b:number):number => {
   return a + b;
 }
 console.log(sum(5,2));
+
+
+
+
