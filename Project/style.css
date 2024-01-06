@@ -1,0 +1,21 @@
+div{
+    margin-top: 3%;
+    margin-left: 35%;
+    width: 31%;
+    background-color: white;
+    height: 50vh;
+}
+h1{
+    text-align: center;
+}
+body{
+    height: 665px;
+    background-color: red;
+    background-image: linear-gradient(#E8EAF6, #FFEBEE);
+    border-radius: 13px;
+    
+}
+p{
+    font-weight: bolder;
+    text-align: center;
+}
